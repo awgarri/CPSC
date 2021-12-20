@@ -42,8 +42,7 @@ int main(int arg, char** argv) {
         cin >> n->data;
         n->prev = tail;
         tail->next = n;
-        tail = n;
-        
+        tail = n;  
     }
 
     n = head;
