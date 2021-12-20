@@ -39,11 +39,11 @@ int main(int arg, char** argv) {
 
     for(int i = 1; i < numberNodes; ++i) {
         n = new node;
-        n->data = i;
+        cin >> n->data;
         n->prev = tail;
         tail->next = n;
         tail = n;
-        cin >> n->data;
+        
     }
 
     n = head;
