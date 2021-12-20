@@ -49,6 +49,5 @@ int main(int arg, char** argv) {
     cout << "LIST:\n";
     printList(head);
 
-    tail->next = NULL;
-        
+    tail->next = NULL; 
 }
