@@ -50,6 +50,5 @@ int main(int arg, char** argv) {
     printList(head);
 
     tail->next = NULL;
-    
-    
+        
 }
