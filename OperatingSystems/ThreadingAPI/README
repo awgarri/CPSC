@@ -1,0 +1,7 @@
+Name: Drew Garrison
+Date: 10/12/2021
+
+KNOWN PROBLEMS: During preemption it will occasionally segfault but was never able to figure out the cause of this.
+
+Design: In this implementation I am using a circular linked list for the queuing.  The rest of the functions are fairly standard although
+I did end up using "uc_link" despite the warning in the project2 pdf.

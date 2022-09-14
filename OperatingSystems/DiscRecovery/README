@@ -1,0 +1,9 @@
+
+Description:
+    This program searches the root directory areas of a FAT12 filesystem image.
+    It will attempt to recover deleted files by assigning pointers to free blocks
+    int FAT12.
+
+Known Issues:
+    One sector of the deleted files is recovered even if the sector was overwritten
+    by another file.
