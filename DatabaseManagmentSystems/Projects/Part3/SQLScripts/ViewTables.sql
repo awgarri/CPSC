@@ -1,0 +1,29 @@
+-- NAMES: DREW GARRISON AND NICK FUNKHOUSER
+-- DATE: 3/31/2022
+
+-- NAMES: DREW GARRISON AND NICK FUNKHOUSER
+-- DATE: 3/31/2022
+
+USE TaylorPizzeria;
+
+SELECT * FROM discount;
+
+SELECT * FROM customer;
+
+SELECT * FROM TOPPING;
+
+SELECT * FROM pizza;
+
+SELECT * FROM pizza_order;
+
+SELECT * FROM customer_order;
+
+SELECT * FROM baseprice;
+
+SELECT * FROM dinein;
+
+SELECT * FROM delivery;
+
+SELECT * FROM pickup;
+
+
